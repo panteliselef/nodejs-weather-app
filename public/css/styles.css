@@ -1,0 +1,57 @@
+body {
+	color: #333;
+	font-family: arial;
+	max-width: 650px;
+	margin: 0 auto;
+  padding: 0 1rem;
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+header h1 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+header a {
+	color: #888;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+header a:hover{
+  text-decoration: underline;
+}
+footer {
+	color: #888;
+	border-top: 1px solid #eee;
+	margin-top: 1rem;
+	padding: 1rem 0;
+}
+
+img.portrait {
+  width: 250px;
+}
+.main-content {
+  flex-grow: 1;
+}
+
+
+input {
+	border: 1px solid #ccc;
+	padding: .5rem;
+	appearance: none;
+	font-size: 1rem;
+}
+button {
+	cursor: pointer;
+	border: 1px solid #888;
+	color: #fff;
+	padding: .5rem;
+	appearance: none;
+	font-size: 1rem;
+	background: #888;
+}
